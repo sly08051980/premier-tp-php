@@ -171,6 +171,139 @@
 //     print PHP_EOL;
 //     print "il faut rendre $centaine billet de 100 euro ";
 // }
-// ?>
+// 
+
+
+//exo 5.11
+// $partant=readline("Choisissez le nbre de chevaux partant : ");
+// $cheval =readline("Choisissez le nbre de chevaux selectionner : ");
+// $stat = ($partant-($cheval))+1;
+// // print $stat;
+// $tableau=1;
+// for ($i=$stat; $i <= $partant; $i++) { 
+//     // print $i;
+//     // print PHP_EOL;
+//     $tableau *= $i;
+   
+
+  
+// }
+// // print $tableau;
+// // print PHP_EOL;
+// print "vous avez 1 chance sur $tableau de gagné ds l ordre";
+// $tableauDecroissant=1;
+// for ($j=1; $j <=$partant ; $j++) { 
+// //   print $j;
+// //     print PHP_EOL;
+//     $tableauDecroissant *=$j;
+
+
+// }
+// // print $tableauDecroissant;
+// // print PHP_EOL;
+// $tableauPartant=1;
+// for($k=1;$k<=$cheval;$k++){
+// // print $k;
+// // print PHP_EOL;
+// $tableauPartant *=$k;
+// }
+// // print "test $tableauPartant";
+// // print PHP_EOL;
+// $depart = ($partant - $cheval);
+// $tableauDepart = 1;
+
+// for ($index = 1; $index <= $depart; $index++) { 
+//     // print "variable l $index";
+//     // print PHP_EOL;
+//     $tableauDepart *= $index;
+// }
+
+// // print "tableau depart $tableauDepart";
+// print PHP_EOL;
+// $totalCheval = ($tableauDecroissant/($tableauPartant*$tableauDepart));
+// print "vous avez 1 chance sur $totalCheval de gagné ds le désordre";
+// 
+
+//exo 6.1
+
+// $tableau=array();
+
+// for ($i=0; $i <7 ; $i++) { 
+//     $tableau[$i]=0;
+
+// }
+// foreach ($tableau as $value) {
+//     print $tableau[$value];
+//     print PHP_EOL;
+// }
+
+//exo 6.2
+// $tableau=range("a","z");
+
+// // foreach ($tableau as $key) {
+   
+// //    print $test;
+// //    print PHP_EOL;
+// // }
+
+// for ($i=0; $i <6 ; $i++) { 
+//    print $tableau[$i];
+//    print PHP_EOL;
+// }
+
+//exo 6.3
+
+// $tableau=[];
+// for ($i=0; $i <9 ; $i++) { 
+//    $tableau[$i]=readline("note $i ");
+
+// }
+// $toto=0;
+// foreach ($tableau as $key) {
+//     print $key;
+//     print PHP_EOL;
+//    $toto +=$key;
+ 
+// }
+// $toto=$toto/9;
+// print $toto;
+//  print PHP_EOL;
+
+// exo 6.4
+// Tableau Nb(6) en Entier
+// Variable i : Entier
+// Début
+// Pour i allant de 0 à 5
+// Nb(i) := i * i
+// Fin Pour
+// Pour i allant de 0 à 5
+//  Ecrire Nb(i)
+// Fin Pour
+// Fin
+// $tableau=array();
+// for ($i=0; $i <5 ; $i++) { 
+//    $nbr=$i;
+//    print $i;
+//     print PHP_EOL;
+// }
+
+// exo 6.5
+
+// Tableau N(7) en Entier
+// Variables i, k : Entier
+// Début
+// N(0) := 1
+// Pour k allant de 1 à 6
+// N(k) := N(k-1) + 2
+// Fin Pour
+// Pour i allant de 0 à 6
+//  Ecrire N(i)
+// Fin Po
+$tableau=array();
+for ($k=1; $k <=6 ; $k++) { 
+    
+}
+
+?>
 
 
